@@ -15,7 +15,7 @@ output = bias + weights * inputs
 
 After this, the output is put through an activation function that transforms the output. Popular activation function such as ReLu transform input with the `max(0, x)` equation. Essentially, input less than 0 are default to 0 and do not carry any weight. Thus, the node is said to be 'deactivated'. Conversely, positive input will be preserved, and nodes are 'activated'.
 
-![](https://github.com/RussH-code/Neural-Network-Fundamentals/blob/main/relu.jpg) Source: <a href="https://www.youtube.com/watch?v=68BZ5f7P94E">Neural Networks Pt. 3: ReLU In Action!!!</a>
+![](https://github.com/RussH-code/Neural-Network-Fundamentals/blob/main/relu.PNG) Source: <a href="https://www.youtube.com/watch?v=68BZ5f7P94E">Neural Networks Pt. 3: ReLU In Action!!!</a>
 
 This notebook focuses more on the coding part of neural network. For more detailed mathematical explanation on how neural networks work under the hood, there are some great resources for you to review.
 
