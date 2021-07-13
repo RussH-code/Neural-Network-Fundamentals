@@ -5,7 +5,7 @@
 ## Breif Introduction of a Neural Network
 Neural networks are core in deep learning. It consists of layers of interconnected nodes that resemble neurons in human brain. In this notebook, we explore a python library `tensorflow` to implement neural networks. 
 
-![]()
+![](https://github.com/RussH-code/Neural-Network-Fundamentals/blob/main/neural%20network.PNG)
 
 All the computation happends in the nodes. Each node has a set of weights and bias. The input from the previous layer is run through the subsequent layer and at each node the following equation is used to compute the output.
 
