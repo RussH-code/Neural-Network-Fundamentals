@@ -5,7 +5,7 @@
 ## Breif Introduction of a Neural Network
 Neural networks are core in deep learning. It consists of layers of interconnected nodes that resemble neurons in human brain. In this notebook, we explore a python library `tensorflow` to implement neural networks. 
 
-![](https://github.com/RussH-code/Neural-Network-Fundamentals/blob/main/neural%20network.PNG)
+![](https://github.com/RussH-code/Neural-Network-Fundamentals/blob/main/neural%20network.PNG) Source: https://wiki.pathmind.com/neural-network
 
 All the computation happends in the nodes. Each node has a set of weights and bias. The input from the previous layer is run through the subsequent layer and at each node the following equation is used to compute the output.
 
@@ -13,7 +13,7 @@ output = bias + weights * inputs
 
 After this, the output is put through an activation function that transforms the output. Popular activation function such as ReLu transform input with the `max(0, x)` equation. Essentially, input less than 0 are default to 0 and do not carry any weight. Thus, the node is said to be 'deactivated'. Conversely, positive input will be preserved, and nodes are 'activated'.
 
-![]()
+![](https://github.com/RussH-code/Neural-Network-Fundamentals/blob/main/relu.jpg) Source: <a href="https://www.youtube.com/watch?v=68BZ5f7P94E">Neural Networks Pt. 3: ReLU In Action!!!</a>
 
 This notebook focuses more on the coding part of neural network. For more detailed mathematical explanation on how neural networks work under the hood, there are some great resources for you to review.
 
