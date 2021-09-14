@@ -1,4 +1,4 @@
-# Neural-Network-Fundamentals (modify)
+# Neural-Network-Fundamentals 
 
 ---
 
